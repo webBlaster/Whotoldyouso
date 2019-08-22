@@ -2,3 +2,8 @@ body {
     background:rgba(0, 0, 0, 0.397);
     text-align:center;
 }
+
+.right li a{
+    color:black;
+    font-weight: 600;
+}
