@@ -1,9 +1,30 @@
+h1, h2, h3, h4 {
+    padding:0;
+    margin:0;
+}
 body {
-    background:rgba(0, 0, 0, 0.397);
     text-align:center;
 }
 
-.right li a{
+.right li a {
     color:black;
-    font-weight: 600;
+    font-weight: 500;
 }
+
+#first-section {
+    padding:0;
+    height: 500px;
+    background-image: url(toldya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second-section {
+}
+
+ #top {
+     background:rgba(29, 0, 29, 0.658);
+     height:100%;
+     margin:0;
+     padding:200px 0 0 0;
+ }
