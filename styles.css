@@ -19,10 +19,15 @@ body {
     background-size: cover;
 }
 
-#second-section {
+#learnmore {
+    padding:50px;
 }
 
- #top {
+#second-section {
+    padding:60px;
+}
+
+ #intro {
      background:rgba(29, 0, 29, 0.658);
      height:100%;
      margin:0;
