@@ -11,6 +11,10 @@ body {
     font-weight: 500;
 }
 
+.curved-btn {
+    border-radius:20px;
+}
+
 #first-section {
     padding:0;
     height: 300px;
@@ -25,7 +29,6 @@ body {
 }
 
 #second-section {
-    background:rgba(29, 0, 29, 0.712);
     padding:60px;
 }
 
@@ -35,4 +38,16 @@ body {
      margin:0;
      padding:100px 0 0 0;
      border-radius: 0 0 50% 50%;
+ }
+
+ .indicator-item {
+     background-color: rgba(68, 68, 68, 0.445) !important;
+ }
+ .indicator-item.active {
+    background-color: #444 !important;
+}
+ #quoteslide {
+     cursor:pointer;
+     margin:50px 0 0 0;
+     height:300px !important;
  }

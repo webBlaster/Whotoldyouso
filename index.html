@@ -21,7 +21,7 @@
         <li><a href="">About</a></li>
         <li><a href="">Articles</a></li>
         <li><a href="">Chapters</a></li>
-        <li><a href="" class="btn red white-text">BECOME A PATRIOT</a></li>
+        <li><a href="" class="btn red curved-btn white-text">BECOME A PATRIOT</a></li>
       </ul>
     </div>
     </nav>
@@ -46,9 +46,9 @@
         <p>“To Know, and know that you know,
             and know that what you know annuls
             every other form of knowledge”</p>
-        <div class="btn red">Learn More</div>
+        <a href="" class="btn red curved-btn">Learn More</a>
     </div>
-    <div id="second-section" class="section white-text">
+    <div id="second-section" class="section">
         <h2>Chapters</h2>
         <p>
             These chapters describes the journey in embracing truth.
@@ -57,7 +57,53 @@
             open up to you all actual phases of my life and brings the definite
             understanding needed to embrace all Jesus died for us to have.
         </p>
-        <div class="btn red">Learn More</div>
+        <a href="" class="btn red curved-btn">Read More</a>
+
+        <!--Slide Show-->
+        <div id="quoteslide" class="carousel carousel-slider center">
+            
+            <div class="carousel-item black-text" href="#one!">
+                <h2>A.W.Tozer,The Crucified Life</h2>
+                <p>"Those who seek the deeper christian life and those <br>
+                who want the riches that are in christ jesus the<br>
+                lord seek no place, no wealth, no things, only Christ."</p>
+            </div>
+            <div class="carousel-item black-text" href="#two!">
+                <h2>A.W.Tozer,The Pursuit of God</h2>
+                <p>
+                    "Self is the opaque veil that hides the face of God from us.<br>
+                    It can be removed only in spiritual experience, never by mere<br>
+                    instruction"
+                </p>
+            </div>
+            <div class="carousel-item black-text" href="#three!">
+                <h2>A.W.Tozer,The Dwelling Place of God</h2>
+                <p>"Self is one of the toughest plants that grows in the<br>
+                    garden of life. It is, in fact, indestructible by any<br>
+                    human means. Just when we are sure it is dead, it<br>
+                    turns up somewhere as robust as ever to trouble<br>
+                    our peace and poison the fruit of our lives"
+                </p>
+            </div>
+            <div class="carousel-item black-text" href="#four!">
+                <h2>A.W.Tozer,The Pursuit of God</h2>
+                <p>
+                    "As we begin to focus upon God, the things of<br>
+                    the spirit will take shape before our inner eyes"
+                </p>
+            </div>
+            <div class="carousel-item black-text" href="#five!">
+                <h2>Kenneth Hagin, Following God's plan for your life</h2>
+                <p>
+                   "Too often our problem in following God's plan for<br>
+                   our lives is that we have failed to train our spirit as<br>
+                   we should have. We have spent most of our lives in<br>
+                   the mental and physical realms, developing our<br>
+                   interllect at the expense of our heart"
+                </p>
+            </div>
+        </div>
+
     </div>
 
     <div id="third-section" class="section black-text">
@@ -70,6 +116,11 @@
     <script>
     $(document).ready(function(){
     $('.sidenav').sidenav();
+    });
+
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
     });
     </script>
 </body>
