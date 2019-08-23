@@ -21,23 +21,34 @@ body {
     background-image: url(toldya.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0 0 50% 50%;
+    border-radius: 0 0 10% 10%;
 }
 
 #learnmore {
     padding:50px;
 }
 
-#second-section {
+#white-overlay {
+    background:rgba(255, 255, 255, 0.699);
+    height:100%;
+    position:relative;
+    width:100%;
     padding:60px;
+}
+#second-section {
+    padding:0;
+    background-image: url(toldya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
  #intro {
-     background:rgba(29, 0, 29, 0.658);
+     background:rgba(29, 0, 29, 0.856);
      height:100%;
      margin:0;
      padding:100px 0 0 0;
-     border-radius: 0 0 50% 50%;
+     border-radius: 0 0 10% 10%;
  }
 
  .indicator-item {
