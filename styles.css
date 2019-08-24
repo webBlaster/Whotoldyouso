@@ -66,3 +66,15 @@ body {
  #third-section {
      padding:60px;
  }
+
+ #fourth-section {
+     padding:60px;
+ }
+
+#fourth-section h3 {
+    margin-bottom:30px;
+}
+ .patriots {
+     margin:50px;
+     border-top:2px solid white;
+ }
