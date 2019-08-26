@@ -20,12 +20,9 @@ body {
 #first-section {
     padding:0;
 }
-#first-section img {
-    margin-top:;
-}
 
 #learnmore {
-    padding:50px;
+    padding:80px;
 }
 
 
@@ -65,9 +62,12 @@ body {
  #quoteslide {
      cursor:pointer;
      margin:150px 0 0 0;
-     height:300px !important;
  }
 
+ #nameslide {
+     height:140px;
+     cursor: pointer;
+ }
  #third-section {
      padding:60px;
  }
