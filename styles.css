@@ -65,7 +65,7 @@ body {
  }
 
  #nameslide {
-     height:140px;
+     height:140px !important;
      cursor: pointer;
  }
  #third-section {
