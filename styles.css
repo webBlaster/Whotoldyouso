@@ -15,8 +15,6 @@ body {
     border-radius:20px;
 }
 
-#topnav {
-}
 #first-section {
     padding:0;
 }
@@ -26,22 +24,11 @@ body {
 }
 
 
-#white-overlay {
+#second-section {
     background:#002072;
     height:100%;
     width:100%;
-    padding:60px;
-}
-#second-section {
-    padding:0;
-    background-image: url(toldya.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-.chapters {
-    padding-top:200px !important;
+    padding:100px;
 }
 
  #intro {
@@ -69,7 +56,16 @@ body {
      cursor: pointer;
  }
  #third-section {
-     padding:60px;
+     padding:0;
+     background-image: url(toldya.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .whiteoverlay {
+    height: 100%;
+    padding:100px;
+    background:rgba(255, 255, 255, 0.664);
  }
 
  #fourth-section {
