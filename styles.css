@@ -101,6 +101,9 @@ body {
     font-weight: 500;
 }
 
+.section-heading {
+    font-weight:800;
+}
 .curved-btn {
     border-radius:20px;
 }
