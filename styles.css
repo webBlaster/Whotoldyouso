@@ -22,6 +22,10 @@ body {
     background-size: cover;   
 }
 
+.top-heading {
+    font-weight:600;
+}
+
 #learnmore {
     padding:80px;
 }
@@ -39,8 +43,14 @@ body {
         height: 350px !important;
         clip-path:circle(160% at 51% -98%) !important;
     }
+    .top-heading {
+        font-size:35px;
+    }
     #intro {
         padding:80px 0 0 0;
+    }
+    #learnmore {
+        padding-top:30px;
     }
   }
 
@@ -113,3 +123,9 @@ body {
  .indicator-item.active {
     background-color: white !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .section-heading {
+        font-size:30px;
+    }
+  }
