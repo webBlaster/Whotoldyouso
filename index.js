@@ -12,7 +12,7 @@ const callback = (entries, observer) => {
     if (!entry.isIntersecting) {
       return;
     }
-    entry.target.classList.add("animated", "fadeInLeft");
+    entry.target.classList.add("animated", "fadeInDown");
     console.log(entry.target);
     observer.unobserve(entry.target);
   });
