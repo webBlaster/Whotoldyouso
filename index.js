@@ -1,5 +1,5 @@
 //all sections
-const sections = document.querySelectorAll(".section");
+const sections = document.querySelectorAll(".restless");
 
 //new intersection observer
 
