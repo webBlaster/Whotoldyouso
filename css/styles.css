@@ -17,7 +17,7 @@ body {
     padding:0;
     height: 561px !important;
     clip-path: circle(212% at 50% -294%) !important;
-    background-image:url(toldya.jpg);
+    background-image:url(../toldya.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
 }
@@ -74,7 +74,7 @@ body {
 */
 #third-section {
     padding:0;
-    background-image: url(toldya.jpg);
+    background-image: url(../toldya.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
