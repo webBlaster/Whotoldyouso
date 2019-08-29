@@ -53,6 +53,12 @@ body {
         padding-top:30px;
     }
   }
+@media only screen and (min-width: 1378px) {
+    #first-section {
+        height: 610px !important;
+        clip-path: circle(200% at 52% -267%)  !important;
+    }
+  }
 
 /*
 *second-section and everything it
