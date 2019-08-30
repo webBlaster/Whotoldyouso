@@ -59,6 +59,12 @@ body {
         clip-path: circle(200% at 52% -267%)  !important;
     }
   }
+@media only screen and (min-width: 1476px) {
+    #first-section {
+        height: 710px !important;
+        clip-path: circle(200% at 52% -267%)  !important;
+    }
+  }
 
 /*
 *second-section and everything it
@@ -72,7 +78,8 @@ body {
 
 #quoteslide {
     cursor:pointer;
-    margin:150px 0 0 0;
+    margin:0;
+    padding:50px;
 }
 
 /*
