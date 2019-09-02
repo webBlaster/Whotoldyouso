@@ -80,7 +80,8 @@ body {
     cursor:pointer;
     margin:0;
     padding:50px;
-    height:400px !important;
+    height:450px !important;
+    background:rgba(128, 128, 128, 0.555);
 }
 #quoteslide .indicator-item {
     background-color:rgba(17, 14, 14, 0.356) !important;
@@ -92,6 +93,11 @@ body {
 #quoteslide .carousel-item {
     padding:50px;
     margin:0;
+}
+
+#quoteslide .card {
+    padding:50px;
+    border-radius: 10px;
 }
 /*
 *third-section and everything it
