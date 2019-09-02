@@ -15,7 +15,7 @@ body {
 */
 #first-section {
     padding:0;
-    height: 561px !important;
+    height: 561px;
     clip-path: circle(212% at 50% -294%) !important;
     background-image:url(../toldya.jpg);
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background:#002072;
+    background:rgb(82, 2, 82);
     height:100%;
     width:100%;
     padding:100px;
@@ -81,7 +81,16 @@ body {
     margin:0;
     padding:50px;
 }
+#quoteslide .indicator-item {
+    background-color:rgba(17, 14, 14, 0.356) !important;
+}
+#quoteslide .indicator-item.active {
+   background-color:black !important;
+}
 
+#quoteslide .carousel-item {
+    padding:50px;
+}
 /*
 *third-section and everything it
 */
@@ -101,8 +110,8 @@ body {
 *fourth-section and everything it
 */
 #fourth-section {
-    background:#002072;
-     padding:60px;
+    background:rgb(82, 2, 82);
+    padding:60px;
  }
 
 #fourth-section h3 {
