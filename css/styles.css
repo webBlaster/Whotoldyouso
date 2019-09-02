@@ -70,7 +70,7 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background-image:linear-gradient(to right, rgba(82, 2, 82, 0.788), rgb(0, 110, 255));
+    background-image:linear-gradient(to left, rgba(82, 2, 82, 0.788), rgba(255, 0, 0, 0.616));
     height:100%;
     width:100%;
     padding:100px;
@@ -111,7 +111,7 @@ body {
 .whiteoverlay {
     height: 100%;
     padding:10%;
-    background:linear-gradient(to left, rgba(82, 2, 82, 0.788), rgb(0, 110, 255));
+    background:linear-gradient(to left, rgba(82, 2, 82, 0.788), rgba(255, 0, 0, 0.616));
  }
 /*
 *fourth-section and everything it
