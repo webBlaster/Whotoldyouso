@@ -70,7 +70,7 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background:rgb(82, 2, 82);
+    background:#3a243b;
     height:100%;
     width:100%;
     padding:100px;
@@ -110,7 +110,7 @@ body {
 *fourth-section and everything it
 */
 #fourth-section {
-    background:rgb(82, 2, 82);
+    background:#3a243b;
     padding:60px;
  }
 
