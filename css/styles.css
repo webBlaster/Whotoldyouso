@@ -70,7 +70,7 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background:black;
+    background-image:linear-gradient(to right, rgba(82, 2, 82, 0.788), red);
     height:100%;
     width:100%;
     padding:100px;
@@ -112,7 +112,7 @@ body {
 *fourth-section and everything it
 */
 #fourth-section {
-    background:black;
+    background:linear-gradient(to left, rgba(82, 2, 82, 0.788), red);
     padding:60px;
  }
 
