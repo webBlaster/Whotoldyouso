@@ -70,7 +70,7 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background:#3a243b;
+    background:black;
     height:100%;
     width:100%;
     padding:100px;
@@ -80,6 +80,7 @@ body {
     cursor:pointer;
     margin:0;
     padding:50px;
+    height:600px !important;
 }
 #quoteslide .indicator-item {
     background-color:rgba(17, 14, 14, 0.356) !important;
@@ -90,6 +91,7 @@ body {
 
 #quoteslide .carousel-item {
     padding:50px;
+    margin:0;
 }
 /*
 *third-section and everything it
@@ -110,7 +112,7 @@ body {
 *fourth-section and everything it
 */
 #fourth-section {
-    background:#3a243b;
+    background:black;
     padding:60px;
  }
 
