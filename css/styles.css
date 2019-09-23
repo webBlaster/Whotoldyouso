@@ -60,7 +60,7 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background:rgba(0, 0, 255, 0.801);
+    background: linear-gradient(-45deg, rgb(0, 52, 104), rgb(79, 27, 107), rgb(60, 31, 147));
     height:100%;
     width:100%;
     padding:100px;
@@ -100,7 +100,7 @@ body {
 .whiteoverlay {
     height: 100%;
     padding:10%;
-    background:rgba(0, 0, 255, 0.801);
+    background: linear-gradient(-45deg, rgb(0, 52, 104), rgb(79, 27, 107), rgb(60, 31, 147));
  }
 /*
 *fourth-section and everything it
