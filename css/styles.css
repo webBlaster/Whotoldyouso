@@ -36,6 +36,7 @@ body {
 
 #learnmore {
     padding:80px;
+    padding-bottom:0px;
 }
 
 #intro {
@@ -65,17 +66,18 @@ body {
 *second-section and everything it
 */
 #second-section {
-    background: linear-gradient(-45deg, rgb(0, 52, 104), rgb(79, 27, 107), rgb(60, 31, 147));
-    height:100%;
     width:100%;
     padding:100px;
+}
+
+.chapters {
+    padding-top:150px !important;
 }
 
 #quoteslide {
     cursor:pointer;
     margin:0;
     padding:50px;
-    height:450px !important;
 }
 #quoteslide .indicator-item {
     background-color:rgba(17, 14, 14, 0.356) !important;
@@ -89,10 +91,12 @@ body {
     margin:0;
 }
 
-#quoteslide .card {
-    padding:50px;
-    border-radius: 10px;
-}
+@media only screen and (max-width: 600px) {
+   .chapters {
+       padding-top:0 !important;
+   }
+  }
+
 /*
 *third-section and everything it
 */
@@ -138,6 +142,12 @@ body {
 }
 .curved-btn {
     border-radius:20px;
+}
+
+.fancy-btn {
+    border:2px solid purple;
+    background:white !important;
+    color:purple;
 }
  .indicator-item {
      background-color:rgba(255, 255, 255, 0.356) !important;
