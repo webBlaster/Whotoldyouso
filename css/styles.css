@@ -103,7 +103,7 @@ body {
 #third-section {
     height:600px;
     padding:0;
-    background-image:url(/Gate.png);
+    background-image:url(../Gate.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
