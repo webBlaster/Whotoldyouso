@@ -101,6 +101,25 @@ body {
   }
 
 /*
+*Articles section
+*/
+.article-section {
+    padding:100px;
+}
+
+.article-section .row .col {
+    padding:50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .article-section {
+        padding:20px;
+    }
+   }
+
+
+
+/*
 *third-section and everything it
 */
 #third-section {
@@ -145,7 +164,7 @@ body {
 }
 
 .section-heading {
-    font-weight:800;
+    font-weight:500;
 }
 .curved-btn {
     border-radius:20px;
