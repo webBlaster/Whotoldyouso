@@ -68,6 +68,9 @@ body {
 #second-section {
     width:100%;
     padding:100px;
+    background-image:url('../bg\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .chapters {
@@ -119,6 +122,9 @@ body {
 */
 #fourth-section {
     padding:60px;
+    background-image:url('../bg\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
 #fourth-section h3 {
