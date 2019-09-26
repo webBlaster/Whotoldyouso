@@ -93,7 +93,7 @@ body {
 
 @media only screen and (max-width: 600px) {
    .chapters {
-       padding-top:0 !important;
+       padding-top:50px !important;
    }
   }
 
@@ -101,7 +101,9 @@ body {
 *third-section and everything it
 */
 #third-section {
+    height:600px;
     padding:0;
+    background-image:url(/Gate.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,13 +111,13 @@ body {
 .whiteoverlay {
     height: 100%;
     padding:10%;
-    background: linear-gradient(-45deg, rgb(0, 52, 104), rgb(79, 27, 107), rgb(60, 31, 147));
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 /*
 *fourth-section and everything it
 */
 #fourth-section {
-    background:rgba(0, 0, 0, 0.925);
     padding:60px;
  }
 
