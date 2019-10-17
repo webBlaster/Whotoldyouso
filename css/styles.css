@@ -16,22 +16,38 @@ body {
 *first-section and everything it
 */
 #topnav {
-    background:rgba(82, 2, 82, 0.788) !important;
+    background:rgba(82, 2, 82, 0) !important;
     border:none !important;
+    position: absolute;
+    z-index: 10;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
 #first-section {
+    overflow: hidden;
     padding:0;
-    height: 700px;
-    clip-path: polygon(100% 0%, 60% 0%, 25% 0%, 0% 0%, 0% 25%, 0% 50%, 0% 100%, 50% 90%, 100% 100%, 100% 100%, 100% 100%, 100% 80%, 100% 48%, 100% 25%);
+    width:100%;
+}
+.curve-container {
+    padding:0;
+    height: 500px;
     background-image:url(../toldya.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;   
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0 0 50% 50%;
+    transform:scaleX(1.5);
+    overflow:hidden;
+    margin:0;
 }
 
+.conscale {
+    text-align: center;
+    transform: scaleX(0.6) !important;
+}
 .top-heading {
     font-weight:600;
 }
