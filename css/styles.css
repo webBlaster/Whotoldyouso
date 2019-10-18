@@ -44,9 +44,13 @@ body {
     margin:0;
 }
 
-.conscale {
+.content {
+    background:rgba(128, 0, 128, 0.219);
+    position: absolute;
+    padding-top:200px;
+    width:100%;
     text-align: center;
-    transform: scaleX(0.6) !important;
+    z-index: 3;
 }
 .top-heading {
     font-weight:600;
