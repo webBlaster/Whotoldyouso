@@ -163,7 +163,6 @@ body {
 */
 #fourth-section {
     padding:60px;
-    background-image:url('../bg\ 2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
  }
@@ -178,6 +177,24 @@ body {
 }
  .patriots {
      margin:50px;
+ }
+
+ /*footer*/
+#footer {
+    position: relative;
+    background-image:url('../bg\ 2.jpg');
+    background-color:purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin:0;
+    padding:0;
+ }
+ #footeroverlay {
+     margin: 0;
+     height:300px;
+     padding-top: 60px;
+     background:rgba(102, 0, 128, 0.76);
  }
 
 /*other*/
