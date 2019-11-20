@@ -32,7 +32,7 @@ let count = 0;
 const switcher = () => {
   element.innerHTML = chapter[count];
   if (count == 2) {
-    count = 0;
+    count = -1;
   }
   count++;
 };
