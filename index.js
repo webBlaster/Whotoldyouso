@@ -22,3 +22,19 @@ const observer = new IntersectionObserver(callback, options);
 sections.forEach((section) => {
   observer.observe(section);
 });
+
+//fadeshow for the different chapters
+//element
+const element = document.querySelector("#chapterslide");
+
+const chapter = ["The Awakening", "Dethroned", "Embracing"];
+let count = 0;
+const switcher = () => {
+  element.innerHTML = chapter[count];
+  if (count == 2) {
+    count = 0;
+  }
+  count++;
+};
+
+setInterval(switcher, 3000);

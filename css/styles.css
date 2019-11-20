@@ -116,6 +116,14 @@ body {
     margin:0;
 }
 
+#chapterslide {
+    position:relative;
+    z-index: 10;
+    top:35vh;
+    color: white;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 600px) {
    .chapters {
        padding-top:50px !important;
@@ -195,6 +203,10 @@ body {
      height:300px;
      padding-top: 60px;
      background:rgba(102, 0, 128, 0.76);
+ }
+
+ #footeroverlay h3{
+    margin: 0 0 40px 0;
  }
 
 /*other*/
