@@ -118,10 +118,17 @@ body {
 
 #chapterslide {
     position:relative;
+    margin: 0;
+    padding: 0;
     z-index: 10;
     top:35vh;
     color: white;
     font-weight: 500;
+    transition:3s;
+}
+
+.fadecontainer {
+    margin: -100px 0 0 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -129,9 +136,13 @@ body {
        padding-top:50px !important;
    }
    #chapterslide {
-       top:22vh;
-       font-size: 25px;
+       top:15vh;
+       font-size: 30px;
+       transition:3s;
    }
+   .fadecontainer {
+    margin: 0 0 0 0;
+}
   }
 
 /*

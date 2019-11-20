@@ -30,6 +30,7 @@ const element = document.querySelector("#chapterslide");
 const chapter = ["The Awakening", "Dethroned", "Embracing"];
 let count = 0;
 const switcher = () => {
+  element.style.transition = "3s";
   element.innerHTML = chapter[count];
   if (count == 2) {
     count = -1;
