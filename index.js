@@ -27,7 +27,7 @@ sections.forEach((section) => {
 //element
 const element = document.querySelector("#chapterslide");
 
-const chapter = ["The Awakening", "Dethroned", "Embracing"];
+const chapter = ["The<br> Awakening", "Dethroned", "Embracing"];
 let count = 0;
 const switcher = () => {
   element.style.transition = "3s";
